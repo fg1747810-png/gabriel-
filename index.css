@@ -1,0 +1,103 @@
+/* CORPO */
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    /* FUNDO BONITO COM DEGRADÊ */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* MENU */
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 16px;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #00bfff;
+}
+
+/* TÍTULOS */
+h1 {
+    color: #00bfff;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #cce7ff;
+}
+
+h3 {
+    color: #87cefa;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* CONTEÚDO */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+/* RESPONSIVO PARA CELULAR */
+@media (max-width: 600px) {
+    header nav  {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
